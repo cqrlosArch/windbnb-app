@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://windbnb-app.cqrlosarch.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/ZdoNDa90lED3Pa6S9EkP">
       Solution
     </a>
     <span> | </span>
@@ -45,7 +45,7 @@
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
