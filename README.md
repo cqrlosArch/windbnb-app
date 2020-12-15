@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://windbnb-app.cqrlosarch.vercel.app/">
+    <a href="https://windbnb-app.cqrlosarch.vercel.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/ZdoNDa90lED3Pa6S9EkP">
+    <a href="https://devchallenges.io/solutions/ZdoNDa90lED3Pa6S9EkP" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/3JFYedSOZqAxYuOCNmYD">
+    <a href="https://devchallenges.io/challenges/3JFYedSOZqAxYuOCNmYD" target="_blank">
       Challenge
     </a>
   </h3>
