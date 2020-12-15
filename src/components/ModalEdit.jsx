@@ -123,6 +123,18 @@ const ModalEditStyled = styled.div`
         }
       }
     }
+    @media screen and (min-width: 576px) {
+      .container__select {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        .container__locations {
+          grid-column: 1/2;
+        }
+        .container__guests {
+          grid-column: 2/-1;
+        }
+      }
+    }
   }
 `;
 
@@ -189,8 +201,14 @@ const ModalEdit = ({ setShowModal }) => {
             <button className="form-button">Search</button>
           </form>
         </div>
-        {showLocations && <ListLocation />}
-        {showGuests && <SelectGuests />}
+        <div className="container__select">
+          <div className="container__locations">
+            {showLocations && <ListLocation />}
+          </div>
+          <div className="container__guests">
+            {showGuests && <SelectGuests />}
+          </div>
+        </div>
       </div>
     </ModalEditStyled>
   );
