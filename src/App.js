@@ -8,6 +8,7 @@ import ListStays from './components/ListStays';
 import ModalEdit from './components/ModalEdit';
 import { DataProvider } from './context/DataContext';
 import { useState } from 'react';
+import Footer from './components/Footer';
 const GlobalStyled = createGlobalStyle`
 
   html{
@@ -53,6 +54,7 @@ function App() {
           <Header setShowModal={setShowModal} />
           <ResultTitle />
           <ListStays />
+          <Footer/>
         </Wrapper>
       </ThemeProvider>
     </DataProvider>
